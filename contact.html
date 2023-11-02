@@ -4,46 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
     <title>Shawn's Blog Post - Contact Page</title>
 </head>
 <body>
     <header>
         <h1>Down the Rabbit Hole</h1>
-        <p>A Deep Dive into oddly specific Gaming Nonsense</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <p class="subHeading">Dive deep into Gaming Nonsense</p>
+        <nav class="stickyBar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="contact.html">Contact</a></p>
         </nav>
     </header>
-    <section>
-        <form>
-            <label>
-                Name:
-                <input type="text" />
-            </label>
-            <br />
-            <label>
-                Email Address:
-                <input type="text" />
-            </label>
-            <br />
-            <label for="reason">Reason for Contact</label>
-            <select name="reason" id="reason">
-                <option value="saying hi">Saying Hi</option>
-                <option value="looking for a contractor">Looking for a Contractor</option>
-                <option value="interested in an interview">Interested in an Interview</option>
-            </select>
-            <br />
-            <label>Your Message:
-                <textarea></textarea>
-            </label>
-            <br />
-            <button>Submit</button>
-        </form>
-    </section>
+    <main>
+        <section>
+            <form>
+                <label>
+                    Name:
+                    <input type="text" />
+                </label>
+                <label>
+                    Email Address:
+                    <input type="text" />
+                </label>
+                <span>
+                <label for="reason">Reason for Contact:</label>
+                    <select name="reason" id="reason">
+                        <option value="saying hi">Saying Hi</option>
+                        <option value="looking for a contractor">Looking for a Contractor</option>
+                        <option value="interested in an interview">Interested in an Interview</option>
+                    </select>
+                </span>
+                <label>
+                    <div>Your Message:</div>
+                    <textarea></textarea>
+                </label>
+                <button>Submit</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>

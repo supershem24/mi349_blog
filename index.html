@@ -4,76 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
     <title>Games Mechanics Blog</title>
 </head>
 <body>
     <header>
         <h1>Down the Rabbit Hole</h1>
-        <p>A Deep Dive into oddly specific Gaming Nonsense</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <p class="subHeading">Dive deep into Gaming Nonsense</p>
+        <nav class="stickyBar">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="contact.html">Contact</a></p>
         </nav>
     </header>
-    <section id="blog">
-        <h2>Arkham Horror LCG Blog</h2>
-        <article>
-            <h3>Why Jim Culver is still considered a Bad Investigator</h3>
-            <address class="author">Shawn Porto</address>
-            <time datetime="2023-10-28" title="October 28, 2023"> Oct 28, 2023</time>
-            <p><img alt="Jim Culver's Investigator card" src="images/Jim-Culver.png" /></p>
-            <p>Jim Culver has had a lot of negativity from the community, there are a fair amount of reasons, but lets go over them all. First, when he came out he was one of two mystics out, and he had the lower willpower. Willpower is a mystic's main stat, and thus he was treated as worse because of his lower stat. Second, is his ability, his ability to make all Skulls a Zero can drastically change the odds of the chaos bag and give better odds at suceeding a chaos bag, but it replaces any active ability he could have had. Now, the real question is how powerful is his ability? Well, first lets look at how he operated when he came out, because both choas bags only have 2 skulls, never increase it, and most skulls weren't as bad as other chaos tokens. Now, it has been seen that Skulls are almost always the the most (quantity wise) of negative symbol tokens in the bag, with effects that scale, which makes his ability better the more you do in a scenario. Most people still don't like him and how you'd play him, but it's all because of the past, and his weird style of playing the game. I honestly find his playstyle fun, with want to still do the classic mystic tests, but also just alot of bag manipulation to get skulls (which you might want for specific cards). All in all to say, I believe more people should learn to appreciate Jim Culver.</p>
-        </article>
-        <article>
-            <h3>An anyasis of the .35 Winchester</h3>
-            <address class="author">Shawn Porto</address>
-            <time datetime="2023-10-28" title="October 28, 2023"> Oct 28, 2023</time>
-            <p><img alt=".35 Winchester Arkham Horror Asset Card" src="images/35-Winchester.png" /></p>
-            <p>The .35 Winchester is an interesting Arkham Horror card, one that is relativly hard to justify taking with so many other options availible. However, I believe this card is amazing in some decks and very useful with some Investigators, but it always depends on the contents of the bag. The chance of drawing every token in a standard bag (Night of the Zealot Standard)</p>
-            <table>
-                <tr>
-                    <th>Tokens</th>
-                    <th>Elder Sign (star)</th>
-                    <th>+1</th>
-                    <th>0</th>
-                    <th>-1</th>
-                    <th>-2</th>
-                    <th>-3</th>
-                    <th>-4</th>
-                    <th>Skull</th>
-                    <th>Assasin</th>
-                    <th>Tablet</th>
-                    <th>Autofail</th>
-                </tr>
-                <tr>
-                    <th>Chance of drawing it</th>
-                    <td>6.25%</td>
-                    <td>6.25%</td>
-                    <td>12.5%</td>
-                    <td>18.75%</td>
-                    <td>12.5%</td>
-                    <td>6.25%</td>
-                    <td>6.25%</td>
-                    <td>12.5%</td>
-                    <td>6.25%</td>
-                    <td>6.25%</td>
-                    <td>6.25%</td>
-                </tr>
-            </table>
-            <p>If you add up the percentages of the Elder Sign, +1, and 0, you get 25%, which makes sense for what would be considered a "critical hit". Now this "critical hit" would essentially always hit what you're attacking, given that you'd get a +2 fight bonus and most guardian characters have at least 3 fight, allowing you to consitently "crit" a creature with a pretty high 5 fight or more. Now that the good has been said, we start getting into the weird territory. Firstly, its cost of 4r gets it 5 ammo (most guns use the cost of 1r per ammo or more), which is better than most guns. In exchange for all this good it gets, it also takes up both hand slots (no extra weapon without extra setup), and it only does base damage upon a normal sucess. In conclusion, I'd get this weapon with some chaos bag manipulation, or with a secondary fighting character that doesn't really use their handslots for anything else, it can take out an enemy in a pinch if you need it, but otherwise it stands as a hard to use gun, whose critical hit might be a little unwieldy.</p>
-        </article>
-    </section>
-    <section>
-        <form>
-            <label>Sign up for our Newsletter:
-                <input type="text" />
-            </label>
-            <button>Subscribe!</button>
-        </form>
-    </section>
+    <main>
+        <section id="blog">
+            <h2>The Arkham Horror LCG Blog</h2>
+            <article>
+                <h3>Why Jim Culver is still considered a Bad Investigator</h3>
+                <address class="author">Shawn Porto</address>
+                <time datetime="2023-10-28" title="October 28, 2023"> Oct 28, 2023</time>
+                <p><figcaption>Jim Culver's Investigator Card in the Arkham Horror LCG</figcaption><img id="JimCulver" alt="Jim Culver's Investigator card" src="images/Jim-Culver.png" /> Jim Culver has had a lot of negativity from the community, there are a fair amount of reasons, but lets go over them all. First, when he came out he was one of two mystics out, and he had the lower willpower. Willpower is a mystic's main stat, and thus he was treated as worse because of his lower stat. Second, is his ability, his ability to make all Skulls a Zero can drastically change the odds of the chaos bag and give better odds at suceeding a chaos bag, but it replaces any active ability he could have had. Now, the real question is how powerful is his ability? Well, first lets look at how he operated when he came out, because both choas bags only have 2 skulls, never increase it, and most skulls weren't as bad as other chaos tokens. Now, it has been seen that Skulls are almost always the the most (quantity wise) of negative symbol tokens in the bag, with effects that scale, which makes his ability better the more you do in a scenario. Most people still don't like him and how you'd play him, but it's all because of the past, and his weird style of playing the game. I honestly find his playstyle fun, with want to still do the classic mystic tests, but also just alot of bag manipulation to get skulls (which you might want for specific cards). All in all to say, I believe more people should learn to appreciate Jim Culver.</p>
+            </article>
+            <article>
+                <h3>An anyasis of the .35 Winchester</h3>
+                <address class="author">Shawn Porto</address>
+                <time datetime="2023-10-28" title="October 28, 2023"> Oct 28, 2023</time>
+                <p><img id="Winchester" alt=".35 Winchester Arkham Horror Asset Card" src="images/35-Winchester.png" />The .35 Winchester is an interesting Arkham Horror card, one that is relativly hard to justify taking with so many other options availible. However, I believe this card is amazing in some decks and very useful with some Investigators, but it always depends on the contents of the bag. The chance of drawing every token in a standard bag (Night of the Zealot Standard)</p>
+                <table>
+                    <tr>
+                        <th>Tokens</th>
+                        <th>Elder Sign (star)</th>
+                        <th>+1</th>
+                        <th>0</th>
+                        <th>-1</th>
+                        <th>-2</th>
+                        <th>-3</th>
+                        <th>-4</th>
+                        <th>Skull</th>
+                        <th>Assasin</th>
+                        <th>Tablet</th>
+                        <th>Autofail</th>
+                    </tr>
+                    <tr>
+                        <td>Chance of drawing it</td>
+                        <td>6.25%</td>
+                        <td>6.25%</td>
+                        <td>12.5%</td>
+                        <td>18.75%</td>
+                        <td>12.5%</td>
+                        <td>6.25%</td>
+                        <td>6.25%</td>
+                        <td>12.5%</td>
+                        <td>6.25%</td>
+                        <td>6.25%</td>
+                        <td>6.25%</td>
+                    </tr>
+                </table>
+                <p>If you add up the percentages of the Elder Sign, +1, and 0, you get 25%, which makes sense for what would be considered a "critical hit". Now this "critical hit" would essentially always hit what you're attacking, given that you'd get a +2 fight bonus and most guardian characters have at least 3 fight, allowing you to consitently "crit" a creature with a pretty high 5 fight or more. Now that the good has been said, we start getting into the weird territory. Firstly, its cost of 4r gets it 5 ammo (most guns use the cost of 1r per ammo or more), which is better than most guns. In exchange for all this good it gets, it also takes up both hand slots (no extra weapon without extra setup), and it only does base damage upon a normal sucess. In conclusion, I'd get this weapon with some chaos bag manipulation, or with a secondary fighting character that doesn't really use their handslots for anything else, it can take out an enemy in a pinch if you need it, but otherwise it stands as a hard to use gun, whose critical hit might be a little unwieldy.</p>
+            </article>
+        </section>
+        <section class="endForm">
+            <form>
+                <div class="newLine">Sign up for our Newsletter!</div>
+                <label>
+                    Email:
+                    <input class="bigTextArea" type="text" />
+                </label>
+                <button id="obnoxiousButton">Subscribe!</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>

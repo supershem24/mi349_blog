@@ -1,0 +1,130 @@
+﻿
+body {
+    background-color: mediumpurple;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    margin: 0px 0px;
+    background-color: lightcyan;
+    text-align: center;
+    border-block-end: 5px solid white;
+}
+
+main {
+    background-color: white;
+    font-family: Georgia;
+    margin: 40px;
+    color: black;
+    padding: 0px 40px 5px 40px;
+    border-top: 10px solid purple;
+}
+
+.stickyBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stickyBar p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-block: 0px;
+}
+
+.subHeading {
+    margin-block: 0px;
+    font-family: 'Comic Sans MS';
+}
+
+h2 {
+    border-block-end: solid lightgray;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+article {
+    border-block-end: 10px solid black;
+}
+
+article p {
+    line-height: 130%;
+}
+
+#Winchester {
+    float: left;
+    margin-right: 15px;
+    block-size: 300px;
+}
+
+#JimCulver {
+    float: left;
+    margin-right: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 5px solid black;
+}
+
+td {
+    border: 5px solid black;
+}
+
+.endForm {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.bigTextArea {
+    block-size: stretch;
+}
+
+.newLine {
+    color: darkgreen;
+    line-break: normal;
+}
+
+#Wilbur {
+    max-block-size: 200px;
+}
+
+span {
+    line-height: 130%;
+}
+
+textarea {
+    width: 50%;
+    block-size: 200px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+}
+
+#obnoxiousButton {
+    align-self: center;
+}
